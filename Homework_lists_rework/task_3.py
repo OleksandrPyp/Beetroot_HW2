@@ -13,3 +13,4 @@ elif answer != totals:
     print("Nope,try again:)")
 else:
     print("That is not an option")
+
