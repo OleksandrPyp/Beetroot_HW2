@@ -1,12 +1,15 @@
-def make_operation_1 (operator, x, y, *args):
+def make_operation_1 (operator, *args):
     if operator == "+":
-        return x + y
+        return sum(args)
     elif operator == "-":
-        return x - y
+        return args[0]-sum(args[1:])
     elif operator == "*":
-        return x * y
+        result = 1
+        for arg in args:
+            result *= arg
+        return result
     else:
         print("Wrong input")
 
 
-print(make_operation_1("+",10,30))
+print(make_operation_1("*",2,7,5))
