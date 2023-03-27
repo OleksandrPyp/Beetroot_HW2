@@ -14,3 +14,4 @@ while True:
         print("Please input the number! ")
 
 print(square_func())
+
