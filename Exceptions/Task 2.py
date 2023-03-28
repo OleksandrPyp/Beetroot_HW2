@@ -16,3 +16,4 @@ while True:
 print(square_func())
 
 
+
