@@ -1,6 +1,8 @@
 #Task 1
 def oops():
     raise IndexError
+
+
 def solution_oops():
     try:
         oops()
