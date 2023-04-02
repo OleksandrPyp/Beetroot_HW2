@@ -5,7 +5,7 @@ def square_func():
     c = a ** 2 / b
     print(c)
 
-while True:
+#while True:
     try:
         square_func()
     except ZeroDivisionError:
@@ -14,6 +14,8 @@ while True:
         print("Please input the number! ")
 
 print(square_func())
+
+
 
 
 
