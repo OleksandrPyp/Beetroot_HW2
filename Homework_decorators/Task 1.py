@@ -1,5 +1,7 @@
 #Task 1 Decorator to print a function
+from functools import wraps
 def logger(func):
+    @wraps(func)
     def wrapper_logger(*args):
         result = print(f"Function {func.__name__}, called with following parameters: {args}")
         return result
