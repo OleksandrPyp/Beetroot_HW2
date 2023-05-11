@@ -63,4 +63,3 @@ def do_nothing(string: str):
 def do_something(string: str):
     return string
 
-
